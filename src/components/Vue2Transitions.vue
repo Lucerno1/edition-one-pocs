@@ -73,6 +73,10 @@
         </b-col>
       </b-row>
     </b-container>
+
+    <div v-observe-visibility="visibilityChanged">
+      <h1>hello</h1>
+    </div>
   </div>
 </template>
 
@@ -94,6 +98,12 @@ export default {
   name: "Vue2Transitions",
   props: {
     title: String,
+  },
+  methods: {
+    visibilityChanged(isVisible, entry) {
+      this.isVisible = isVisible;
+      console.log(entry);
+    },
   },
 };
 </script>

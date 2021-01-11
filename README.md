@@ -1,4 +1,5 @@
-# transitions-poc
+# Edition One Proof of Concepts
+This repository contains a few proof of concepts I made for image animations.
 
 ## Project setup
 ```

@@ -12,6 +12,7 @@
     "bootstrap-vue": "^2.21.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.12",
+    "vue-observe-visibility": "^1.0.0",
     "vue2-transitions": "^0.3.0"
   },
   "devDependencies": {
